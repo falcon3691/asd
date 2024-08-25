@@ -1,0 +1,180 @@
+.nav {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    left: 1%;
+    top: 20px;
+}
+
+.navbar {
+    position: relative;
+}
+
+.navbar li {
+    list-style: none;
+    position: relative;
+    float: left;
+
+}
+
+.navbar a {
+    display: block;
+    padding: 15px 5px;
+    margin-right: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(246, 245, 244);
+    font-size: 20px;
+    width: fit-content;
+}
+
+.navbar a:hover {
+    background-color: #a3a1a1;
+    color: white;
+    z-index: 1;
+    border: 1px solid black;
+}
+
+.navbar li:hover .hibevetesvik {
+    visibility: visible; 
+}
+
+.navbar li:hover .belgelendirmevetescil {
+    visibility: visible; 
+}
+.navbar li:hover .dijitallesmedanismanligi {
+    visibility: visible; 
+}
+
+.hibevetesvik {
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: fixed;
+    width: 100vw;
+    background-color: rgb(246, 245, 244);
+    left: 0px;
+    z-index: 99;
+    visibility: hidden; 
+    display: flex;
+    justify-content: center;
+}
+
+.hibevetesvik li {
+    float: left;
+}
+
+.hibevetesvik a {
+    padding: 5px;
+    margin: 5px;
+    background-color: #a3a1a1;
+    font-size: 19px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    border: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+}
+
+.belgelendirmevetescil {
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: fixed;
+    width: 100vw;
+    background-color: rgb(246, 245, 244);
+    left: 0px;
+    z-index: 99;
+    visibility: hidden; 
+    display: flex;
+    justify-content: center;
+}
+
+.belgelendirmevetescil li {
+    float: left;
+}
+
+.belgelendirmevetescil a {
+    padding: 5px;
+    margin: 5px;
+    background-color: #a3a1a1;
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    border: 1px solid black;
+    width: fit-content;
+}
+
+.dijitallesmedanismanligi {
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: fixed;
+    width: 100vw;
+    background-color: rgb(246, 245, 244);
+    left: 0px;
+    z-index: 99;
+    visibility: hidden; 
+    display: flex;
+    justify-content: center;
+}
+
+.dijitallesmedanismanligi li {
+    float: left;
+}
+
+.dijitallesmedanismanligi a {
+    padding: 5px;
+    margin: 5px;
+    background-color: #a3a1a1;
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    border: 1px solid black;
+    width: fit-content;
+}
+
+.hibevetesvik a:hover,
+.belgelendirmevetescil a:hover,
+.dijitallesmedanismanligi a:hover {
+    background-color: rgb(49, 49, 49);
+}
+
+.sidebar{
+    position: absolute;
+    background-color: rgb(246, 245, 244);
+	display: none;
+    z-index: 10;
+    width: fit-content;
+    height: fit-content;
+    right: 4vw;
+    top: -15vh;
+	padding: 0px;
+}
+.sidebar ul{
+	width: 100%;
+	margin: 0px !important;
+	padding: 0px !important;
+    list-style-type: none;
+}
+.sidebar li{
+	width: 100%;
+	cursor: pointer;
+    height: fit-content;
+	border: 1px solid black;
+    display: block;
+}
+.sidebar a{
+    font-size: 30px;
+}

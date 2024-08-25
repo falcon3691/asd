@@ -1,0 +1,23 @@
+
+.sirket{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    margin-top: 130px;
+
+    font-size: large;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.sirket img{
+    width: 100%;
+    height: fit-content;
+}
+#resim{
+	width: fit-content;
+	height: fit-content;
+}

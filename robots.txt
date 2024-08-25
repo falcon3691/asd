@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Allow: /httpdocs/
+Allow: /httpdocs/Resimler/aslan-logo.png
+Sitemap: https://www.aslantesvik.com/sitemap.xml

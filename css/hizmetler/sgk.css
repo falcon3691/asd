@@ -1,0 +1,47 @@
+.icerik{
+    width: fit-content;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    font-size: larger;
+}
+.icerik lh{
+    margin: 0px;
+}
+.icindekiler{
+    margin-left: 15%;
+    margin-top : 130px;
+    width: fit-content;
+}
+.icindekiler a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.icindekiler a:hover{
+    background-color: grey;
+    color: white;
+}
+h5{
+    color: red;
+}
+
+html {
+    scroll-padding-top: 110px; 
+}
+
+.resim1{
+	width: 700px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.resim2, .resim3, .resim4{
+	
+	width: auto;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
